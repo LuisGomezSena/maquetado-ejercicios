@@ -1,0 +1,53 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuraria
+    FICHA: 2558346
+    PROGRAMA: Analisis y desarrollo de Software - ADSO
+    AUTOR: Luis Gomez
+    OBJETIVO: Uso de css, div y herramientas de estilo
+    FECHA CREACION: 30/07/2022
+    VERSION: 3.0.0
+    Fecha de modificacion: 5/08/2022 Luis Gomez
+    W3E Validator: OK
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/ejercicio13.css">
+        <title>Ejercicio 13</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 id="enc">Analisis y desarrollo de Software 2558346</h1>
+            </div>
+            <div id="nav">
+                <h1 id="men">Ejercicio 13</h1>
+            </div>
+            <div id="main">
+                    <h3>Rellenatu CV</h3> 
+                <form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data"> Nombre <br/>
+                    <input type="text" name="hombre" value="" size="20" maxlength="30"/>     
+                    <br/>Apellidos <br/>
+                    <input type="text" name="apellidos" value="" size="50" maxlength="80"/>
+                    <br/> <input type="password" name="contrasena" value="" maxlength="10" />
+                    Contraseña<br/>
+                    <br/> DNI <br/>
+                    <input type="text" name="dni" value="" size="10" maxlength="9" />
+                    <br/>
+                    Sexo <br/> <input type="radio" name="sexo" value="hombre" checked="checked"/> Hombre <br/>                
+                    <input type="radio" name="sexo" value="mujer" /> Mujer <br/><br/>
+                    Incluir mi foto <input type="file" name="foto"/>
+                    <br/><br/>
+                    <input name="suscribir" type="checkbox" value="suscribir" checked="checked"/>Suscribirme al boletin de novedades <br/><br/>
+                    <input type="submit" name="enviar" value="Guardar cambios"/> <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+                </form>
+            </div>            
+            <div id="footer">
+                <h1 id="pie">Luis Enrique Gomez Ramirez @copyrigh todos derechos reservados</h1>
+                <img id="w3c" src="./img/w3c.jpg" alt="">
+            </div>
+        </div>
+    </body>
+</html>

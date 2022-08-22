@@ -1,0 +1,93 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuraria
+    FICHA: 2558346
+    PROGRAMA: Analisis y desarrollo de Software - ADSO
+    AUTOR: Luis Gomez
+    OBJETIVO: Uso de css, div y herramientas de estilo
+    FECHA CREACION: 30/07/2022
+    VERSION: 3.0.0
+    Fecha de modificacion: 5/08/2022 Luis Gomez
+    W3E Validator: OK
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/ejercicio12.css">
+        <title>Ejercicio 12</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 id="enc">Analisis y desarrollo de Software 2558346</h1>
+            </div>
+            <div id="nav">
+                <h1 id="men">Ejercicio 12</h1>
+            </div>
+            <div id="main">
+                <h3>Comparativa de reproductores MP3</h3> 
+            <table>
+                <caption id="titulo">Tabla comparativa de las caracteristicas técnicas de los reproductores MP3</caption>
+                <tr>
+                    <th></th>
+                    <th abbr="Reproductor mini" scope="col" colspan="3">
+                        <img src="./img/mp3_pequeno_blanco.jpg" alt="imagen del reproductor MP3 pequeño de color blanco" />
+                        <img src="./img/mp3_pequeno_negro.jpg" alt="imagen del reproductor MP3 pequeño de color negro"/>
+                        <br/><strong class="reproductor">MP3 mini</strong> 
+                    </th>
+                    <th abbr="Reproductor estandar" scope="col" colspan="2">
+                        <img src="./img/mp3_grande_blanco.jpg" alt="imagen del reproductor MP3 grande de color blanco"/>
+                        <img src="./img/mp3_grande_negro.jpg" alt="imagen del reproductor MP3 grande de color negro" />
+                        <br/><strong class="reproductor">MP3 grande</strong> 
+                    </th>
+                </tr>  
+                <tr> 
+                    <th scope="row" abbr="Capacidad" class="reproductor">Capacidad de almacenamiento</th>    
+                    <td class="texto">4GB <br/>(1.000 canciones</td> 
+                    <td class="texto">8GB <br/>(2.000 canciones}</td>
+                    <td class="texto">16GB <br/> (4,000 canciones)</td>
+                    <td class="texto">30GB <br/>(7.500 canciones</td>
+                    <td class="texto">80GB <br/>(20.000 canciones)</td>
+                </tr>
+                <tr>
+                    <th scope="row" abbr="Colores disponibles" class="reproductor">Colores</th>
+                    <td>
+                        <img src="./img/color_blanco.jpg" alt="Color blanco"/>
+                    </td>
+                    <td>
+                        <img src="./img/color_negro.jpg" alt="Color blanco" />
+                        <img src="./img/color_verde.jpg" alt="Color verde"/> 
+                        <img src="./img/color_azul.jpg" alt="Color azul" />
+                        <img src="./img/color_rose.jpg" alt="Color rose" />
+                    </td> 
+                    <td>
+                        <img src="./img/color_negro.jpg" alt="Color negro" /> 
+                    </td>
+                    <td colspan="2"> 
+                        <img src="./img/color_blanco.jpg" alt="Color blanco" />
+                        <img src="./img/color_negro.jpg" alt="Color negro"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" abbr="Tamaño de pantalla" class="reproductor">Pantalla</th>
+                    <td colspan="3" class="texto">LCD de 3 cm (diagonal) can retroiluminación</td> 
+                    <td colspan="2" class="texto">LCD de 6 cm (diagonal) con retroiluminación</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="row" abbr="Tiempo de carga" class="reproductor">Tiempo de carga</th> 
+                    <td rowspan="2" colspan="3" class="texto">Unas 3 horas</td>
+                    <td colspan="2" class="texto">Unas 4 horas</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="texto">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+                </tr>   
+            </table>
+            </div>            
+            <div id="footer">
+                <h1 id="pie">Luis Enrique Gomez Ramirez @copyrigh todos derechos reservados</h1>
+                <img id="w3c" src="./img/w3c.jpg" alt="">
+            </div>
+        </div>
+    </body>
+</html>
